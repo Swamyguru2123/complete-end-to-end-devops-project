@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main' , url: 'https://github.com/Swamyguru2123/Car-villa-project.git'
+                git branch: 'main' , url: 'https://github.com/Swamyguru2123/car.git'
             }
         }
         stage('Build Docker Image') {
