@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: manjukolkar007/project-1:2
+        image: swamyguru123/project-1
         ports:
         - containerPort: 80
 
@@ -34,4 +34,3 @@ spec:
     port: 80
     targetPort: 80
     nodePort: 30500  # You can choose a port in the 30000–32767 range
-
