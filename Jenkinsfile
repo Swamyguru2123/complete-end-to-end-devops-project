@@ -1,12 +1,12 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'manjukolkar007/project-1:2'
+        DOCKER_IMAGE = 'swamyguru123/project-1'
     }
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/manjukolkar/carvilla.git'
+                git branch: 'main' , url: 'https://github.com/Swamyguru2123/Car-villa-project.git'
             }
         }
         stage('Build Docker Image') {
