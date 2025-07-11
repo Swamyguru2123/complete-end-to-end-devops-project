@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Set working directory inside container
-WORKDIR /usr/share/nginx/html
+WORKDIR /usr/share/nginx/htm
 
 # Remove default nginx index page
 RUN rm -rf ./*
