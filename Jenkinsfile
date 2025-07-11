@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'swamyguru123/project-'
+        DOCKER_IMAGE = 'swamyguru123/project-1'
     }
     stages {
         stage('Clone Repository') {
